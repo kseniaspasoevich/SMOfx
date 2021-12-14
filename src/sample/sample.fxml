@@ -10,7 +10,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="243.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Label layoutX="25.0" layoutY="54.0" text=" SOURCE SIZE: " textAlignment="CENTER">
+      <Label layoutX="25.0" layoutY="54.0" text=" SOURCES: " textAlignment="CENTER">
          <font>
             <Font name="Arial Narrow" size="16.0" />
          </font></Label>
@@ -26,7 +26,7 @@
             <Font name="System Bold" size="12.0" />
          </font></Button>
       <TextField fx:id="sourceSizeField" layoutX="129.0" layoutY="51.0" prefHeight="25.0" prefWidth="83.0" />
-      <Label layoutX="27.0" layoutY="87.0" text="DEVICE SIZE: ">
+      <Label layoutX="27.0" layoutY="87.0" text="DEVICES: ">
          <font>
             <Font name="Arial Narrow" size="16.0" />
          </font></Label>
@@ -44,17 +44,6 @@
       <Button layoutX="465.0" layoutY="85.0" mnemonicParsing="false" onAction="#stepModeClicked" text="STEP MODE ">
          <effect>
             <InnerShadow blurType="GAUSSIAN" choke="0.04" height="0.0" radius="23.6825" width="96.73">
-               <color>
-                  <Color red="0.03921568766236305" green="0.49803921580314636" blue="0.8274509906768799" />
-               </color>
-            </InnerShadow>
-         </effect>
-         <font>
-            <Font name="System Bold Italic" size="12.0" />
-         </font></Button>
-      <Button layoutX="478.0" layoutY="154.0" mnemonicParsing="false" onAction="#NClicked" text="FIND N ">
-         <effect>
-            <InnerShadow choke="0.04" height="0.0" radius="23.6825" width="96.73">
                <color>
                   <Color red="0.03921568766236305" green="0.49803921580314636" blue="0.8274509906768799" />
                </color>

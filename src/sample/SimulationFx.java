@@ -27,9 +27,9 @@ public final class SimulationFx {
     InputStreamReader read = new InputStreamReader(System.in);
     BufferedReader in = new BufferedReader(read);
     @Getter
-    double deviceAlpha = 1; //0.6 d
+    double deviceAlpha = 0.6;
     @Getter
-    double deviceBeta = 1.4;  //1.1 d
+    double deviceBeta = 1.1;
     @Getter
     double sourceLam = 1.3;
     boolean short_results = false;
@@ -195,7 +195,7 @@ public final class SimulationFx {
             double t = 1.643;
             double b = 0.1;
             int tempn = N;
-            N = (int) (t * t * (1 - p0) / (p0 * b * b)); //оптимальное количество зявок
+            N = (int) (t * t * (1 - p0) / (p0 * b * b));
             System.out.println(N);
 
             buffer = Buffer.getInstance(bufSize);

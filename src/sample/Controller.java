@@ -197,7 +197,7 @@ public class Controller {
         deviceBetaLabel.setText(String.valueOf(resultDto.getDeviceBeta()));
         sourceLamLabel.setText(String.valueOf(resultDto.getSourceLam()));
         totalAmountLabel.setText(String.valueOf(resultDto.getTotalAmount()));
-        totalObrLabel.setText(String.valueOf(resultDto.getObr()));
+        totalObrLabel.setText(String.valueOf(resultDto.getObr()+1));
 
     }
 
